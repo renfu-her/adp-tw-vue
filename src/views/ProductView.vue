@@ -1,7 +1,7 @@
 <template>
   <header
     class="page-kv"
-    style="background-image: url(${backgroundImage)"
+    :style="{ backgroundImage: `url(${backgroundImage})` }"
   >
     <div class="kv-caption" data-aos="zoom-in" data-aos-duration="500">
       <h3 class="font-weight-bold text-white text-shadow mb-0">產品資訊</h3>
